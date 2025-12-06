@@ -1,0 +1,12 @@
+{
+    "name": "flare-defai-agent-wrapper",
+    "version": "1.0.0",
+    "description": "Wrapper for DeFAI Agent development",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon --watch DeFAIAgent --ignore DeFAIAgent/artifacts --ignore DeFAIAgent/cache --ignore DeFAIAgent/typechain-types -e ts,sol,js,json index.js"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.11"
+    }
+}
